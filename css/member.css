@@ -1,0 +1,15 @@
+/* 메인 콘텐트 */
+#main_content { position: relative; width: 1000px; height: 1000px; margin: 0 auto; }
+
+/* 가입 양식 폼 */
+#join_box {	width: 600px;	margin: 0 auto; }
+#join_box h2 { 	border-bottom: solid 1px #dddddd; padding-top: 50px; }
+#join_box .col1 { float: left;	width: 130px; margin-top: 4px; }
+#join_box .col2 { float: left;	width: 400px; }
+#join_box .col3 { float: left; }
+#gender_input {max-width: 50px; height: 10px;}
+#join_box .form input { height: 22px; }
+#join_box .form { height: 38px; }
+#join_box .id {	margin-top: 20px; }
+#join_box .bottom_line { margin-top: 10px;	border-bottom: solid 1px #cccccc; }
+#join_box .buttons { text-align: right;	margin: 20px 100px 0 0; }
