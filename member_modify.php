@@ -70,15 +70,13 @@ if ($upfile_name && !$upfile_error) {
     $upfile_type = "";
     $copied_file_name = "";
 }
-$represent_image = $_POST["represent_image"];
 $represent_image = $uploaded_file;
 
 $con = mysqli_connect("localhost", "user1", "12345", "music");
 
 $sql = "UPDATE members SET name='$name', pass='$pass', phone_number='$phone_number', gender='$gender',  represent_image='$represent_image', address='$address', hobby='$hobby', self_inproduce='$self_inproduce', musician='$musician' where id='$id'";
 
-
-mysqli_query($con, $sql);  // $sql 에 저장된 명령 실행
+mysqli_query($con, $sql);  
 mysqli_close($con);
 
 echo "
