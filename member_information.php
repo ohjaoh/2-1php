@@ -79,7 +79,7 @@
                         <div class="form">
                             <div class="col1">휴대전화번호</div>
                             <div class="col2">
-                                <?= $phone_number ?>
+                                0<?= $phone_number ?>
                             </div>                 
                         </div>
                         <div class="clear"></div>
@@ -127,7 +127,7 @@
                             <div class="col1">뮤지션 여부</div>
                             <div class="col2">
                                 <?php if ('1' == $musician) echo "뮤지션입니다."; ?>
-                                <?php if ('0' != $musician && '1' != $musician) echo "뮤지션이 아닙니다."; ?>
+                                <?php if ('1' != $musician) echo "뮤지션이 아닙니다."; ?>
                             </div>                 
                         </div>
                         <div class="clear"></div>

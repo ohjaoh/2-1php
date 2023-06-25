@@ -79,7 +79,7 @@
                         <div class="form">
                             <div class="col1">휴대전화번호</div>
                             <div class="col2">
-                                <input type="text" name="phone_number" value="<?= $phone_number ?>">
+                                <input type="text" name="phone_number" value="0<?= $phone_number ?>">
                             </div>                 
                         </div>
                         <div class="clear"></div>

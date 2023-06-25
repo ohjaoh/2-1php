@@ -78,8 +78,8 @@
                     <?php
                     if ($usermusician == 1) {
                         ?>
-                        <li><button onclick="location.href = 'gongiboard_modify_form.php?num=<?= $num ?>&page=<?= $page ?>'">수정</button></li>
-                        <li><button onclick="location.href = 'gongiboard_delete.php?num=<?= $num ?>&page=<?= $page ?>'">삭제</button></li>
+                        <li><button onclick="location.href = 'musicboard_modify_form.php?num=<?= $num ?>&page=<?= $page ?>'">수정</button></li>
+                        <li><button onclick="location.href = 'musicboard_delete.php?num=<?= $num ?>&page=<?= $page ?>'">삭제</button></li>
                         <?php
                     } else {
                         ?>
